@@ -1,0 +1,17 @@
+label > input{ /* HIDE RADIO */
+ }
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+.preview-player{
+	width: 600px;
+    margin: 20px auto;
+}
